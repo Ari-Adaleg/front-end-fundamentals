@@ -1,0 +1,64 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header,
+section {
+    font-family: Helvetica, Ariel, sans-serif;
+}
+
+h1,
+h2,
+footer {
+    text-align: center;
+}
+
+h1 {
+    background-color: navy;
+    color: white;
+    font-size: 50px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: navy solid 5px;
+}
+
+table * {
+    border: navy solid 1px;
+}
+
+thead {
+    background-color: navy;
+    color: white;
+}
+
+th,
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#tag-column,
+#name-column {
+    text-align: left;
+}
+
+td span {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border: none;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+footer span {
+    font-weight: bold;
+    font-style: normal;
+}
